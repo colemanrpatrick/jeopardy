@@ -1,0 +1,15 @@
+<h6>THIS..</h6>
+<h4>IS..</h4>
+<h1>JEOPARDY</h1>
+
+
+<div class="jeopardbox" ng-repeat= "category in categories">
+  <p class="category">{{category.data.title}}</p>
+<jeopardy-directive question=category.data.clues[0]></jeopardy-directive>
+<jeopardy-directive question=category.data.clues[1]></jeopardy-directive>
+<jeopardy-directive question=category.data.clues[2]></jeopardy-directive>
+<jeopardy-directive question=category.data.clues[3]></jeopardy-directive>
+<jeopardy-directive question=category.data.clues[4]></jeopardy-directive>
+<div class="answerbox">
+  
+</div>
